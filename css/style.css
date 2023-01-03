@@ -27,6 +27,7 @@ main {
     margin: 10vh 8vw 10vh 12vw;
     display: flex;
     gap: 1vw;
+    justify-content: center;
 }
 
 .robotron {
@@ -35,14 +36,15 @@ main {
     margin: 0;
     flex-basis: 40%;
     position: relative;
+    display:none;
 }
 
 .robo {
-    height: 110%;
+    height: 50%;
     z-index: 1;
     position: absolute;
     left: -20%;
-    top: -5%;
+    top: 15%;
 }
 
 .titulo {
@@ -152,7 +154,7 @@ main {
 
 /****************************** Estatísticas *****/
 .estatisticas {
-    flex-basis: 23%;
+    flex-basis: 32%;
     padding: 2em 2em 0;
 }
 
@@ -207,6 +209,26 @@ main {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;
+}
+
+@media screen and (min-width:768px){
+    main{
+        justify-content: initial;
+    }
+    .robotron{
+        display:block;
+    }
+    .estatisticas {
+        flex-basis: 23%;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .robo{
+        height:110%;
+        top: -5%;
+        left: -20%;
+    }
 }
 
 @media screen and (max-width: 1600px) {
