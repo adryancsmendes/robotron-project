@@ -6,4 +6,4 @@
 
 <p>Clique abaixo e confira:</p>
 
-<a href="https://robotron-project-5bugxl3ms-adryancsmendes.vercel.app/" target="__blank">Projeto Robrotron 2000</a>
+<a href="https://robotron-project-5bugxl3ms-adryancsmendes.vercel.app/">Projeto Robrotron 2000</a>
