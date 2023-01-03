@@ -143,6 +143,7 @@ main {
     background: var(--main-branco);
     clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
     cursor: pointer;
+    visibility: hidden;
 }
 
 .producao:hover {
